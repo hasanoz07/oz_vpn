@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:oz_vpn/shared/constants/border_radius.dart';
 import 'package:oz_vpn/shared/constants/colors.dart';
 import 'package:oz_vpn/shared/constants/fonts.dart';
 
@@ -23,6 +24,20 @@ final class LightTheme {
       backgroundColor: AppColors.instance.white,
       showUnselectedLabels: false,
       selectedLabelStyle: TextStyle(fontFamily: AppFonts.gilroyBold.value),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: AppColors.instance.primary,
+        foregroundColor: AppColors.instance.white,
+        shape: RoundedRectangleBorder(
+          borderRadius: AppBorderRadius.instance.radiusAll20,
+        ),
+        textStyle: TextStyle(
+          fontFamily: AppFonts.gilroyBold.value,
+          fontSize: 16.sp,
+        ),
+        minimumSize: Size(double.infinity, 60.h),
+      ),
     ),
     textTheme: TextTheme(
       titleMedium: TextStyle(

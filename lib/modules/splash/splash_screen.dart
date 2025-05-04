@@ -11,7 +11,7 @@ class SplashScreen extends GetView<SplashController> {
     return Scaffold(
       body: Center(
         child: Text(
-          "test",
+          'test',
           style: TextStyle(
             color: Colors.red,
             fontSize: 30,

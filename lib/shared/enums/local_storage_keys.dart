@@ -1,1 +1,1 @@
-enum LocalStorageKeys { test }
+enum LocalStorageKeys { countryCode, languageCode }

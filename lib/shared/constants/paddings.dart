@@ -6,7 +6,7 @@ final class AppPaddings {
 
   static const AppPaddings instance = AppPaddings._();
 
-  EdgeInsets get horizontal => 12.padHorizontal;
-  EdgeInsets get vertical => 8.padVertical;
+  EdgeInsets get horizontal => 24.padHorizontal;
+  EdgeInsets get vertical => 16.padVertical;
   EdgeInsets get all => 12.padAll;
 }

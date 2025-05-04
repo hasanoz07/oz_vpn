@@ -7,4 +7,7 @@ final class AppStrings {
   String get appName => 'OZ Vpn';
   String get appDescription => 'appDescription';
   String get appVersion => '1.0.0';
+  //Onboarding
+  String get onboardingTitle => 'onboardingTitle';
+  String get english => 'english';
 }

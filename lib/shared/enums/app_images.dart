@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 enum AppImages {
-  test('test');
+  onboaronboarding('onboarding');
 
   const AppImages(this.value);
   final String value;
@@ -10,11 +10,18 @@ enum AppImages {
 }
 
 extension AppImagesExtension on AppImages {
-  Image pngWithAttiributes({required Color color, double? height}) {
+  Image pngWithAttiributes({
+    Color? color,
+    double? height,
+    double? width,
+    BoxFit? fit,
+  }) {
     return Image.asset(
       'assets/images/$value.png',
       color: color,
       height: height,
+      width: width,
+      fit: fit,
     );
   }
 }

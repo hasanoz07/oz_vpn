@@ -6,18 +6,18 @@ final class AppColors {
   static const AppColors instance = AppColors._();
 
   // Primary & Secondary Colors
-  Color get primary => Color(0xFF4B7367);
-  Color get secondary => Color(0xFF69B7FF);
+  Color get primary => const Color(0xFF4B7367);
+  Color get secondary => const Color(0xFF69B7FF);
   // Main Colors
-  Color get white => Color(0xFFFFFFFF);
-  Color get black => Color(0xFF000000);
+  Color get white => const Color(0xFFFFFFFF);
+  Color get black => const Color(0xFF000000);
   // Others Colors
-  Color get ruinedSmores => Color(0xFF111014);
-  Color get smokeyLilac => Color(0xFF8F8996);
-  Color get gainsboro => Color(0xFFDCDCDC);
-  Color get whiteSolid => Color(0xFFF3F5F8);
-  Color get doveGrey => Color(0xFF6D6D6D);
-  Color get lead => Color(0xFF202020);
+  Color get ruinedSmores => const Color(0xFF111014);
+  Color get smokeyLilac => const Color(0xFF8F8996);
+  Color get gainsboro => const Color(0xFFDCDCDC);
+  Color get whiteSolid => const Color(0xFFF3F5F8);
+  Color get doveGrey => const Color(0xFF6D6D6D);
+  Color get lead => const Color(0xFF202020);
 
   Color hexToColor(String hexCode) {
     final hexColor = hexCode.replaceAll('#', '');
