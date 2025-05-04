@@ -3,7 +3,8 @@ enum AppFonts {
   gilroyLight('Gilroy Light'),
   gilroyMedium('Gilroy Medium'),
   gilroyRegular('Gilroy Regular'),
-  gilroySemiBold('Gilroy Semi Bold'),
+  gilroySemiBold('Gilroy SemiBold'),
+  gilroySemiBoldItalic('Gilroy SemiBoldItalic'),
   gilroyThin('Gilroy Thin');
 
   const AppFonts(this.value);

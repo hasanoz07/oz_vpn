@@ -9,7 +9,7 @@ Future<Map<String, Map<String, String>>> init() async {
   final pref = LocalStorageService.instance;
 
   Get.lazyPut(() => pref);
-  Get.put(
+  Get.lazyPut(
     () => LocalizationController(localStorage: Get.find<LocalStorageService>()),
   );
 

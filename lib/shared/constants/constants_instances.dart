@@ -2,6 +2,7 @@ import 'package:oz_vpn/shared/constants/border_radius.dart';
 import 'package:oz_vpn/shared/constants/colors.dart';
 import 'package:oz_vpn/shared/constants/paddings.dart';
 import 'package:oz_vpn/shared/constants/strings.dart';
+import 'package:oz_vpn/shared/constants/text_styles.dart';
 
 final class ConstantsInstances {
   ConstantsInstances._();
@@ -13,4 +14,5 @@ final class ConstantsInstances {
   final AppStrings strings = AppStrings.instance;
   final AppPaddings paddings = AppPaddings.instance;
   final AppBorderRadius borderRadius = AppBorderRadius.instance;
+  final AppTextStyles textStyles = AppTextStyles.instance;
 }

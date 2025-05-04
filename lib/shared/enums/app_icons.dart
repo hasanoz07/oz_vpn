@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 enum AppIcons {
-  appIcon('app_icon');
+  appIcon('app_icon'),
+  play('play');
 
   const AppIcons(this.value);
   final String value;

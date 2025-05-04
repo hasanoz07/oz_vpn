@@ -18,6 +18,8 @@ final class AppColors {
   Color get whiteSolid => const Color(0xFFF3F5F8);
   Color get doveGrey => const Color(0xFF6D6D6D);
   Color get lead => const Color(0xFF202020);
+  Color get gray => const Color(0xFF8F8996);
+  Color get appBlack => const Color(0xFF111014);
 
   Color hexToColor(String hexCode) {
     final hexColor = hexCode.replaceAll('#', '');
