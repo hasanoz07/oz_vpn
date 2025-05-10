@@ -20,6 +20,9 @@ final class AppColors {
   Color get lead => const Color(0xFF202020);
   Color get gray => const Color(0xFF8F8996);
   Color get appBlack => const Color(0xFF111014);
+  Color get whiteButtonBorder => const Color(0xFFEAE9F2);
+  Color get lightGray => const Color(0xFFE6E6E6);
+  Color get lightGray2 => const Color(0xFFE1E1E1);
 
   Color hexToColor(String hexCode) {
     final hexColor = hexCode.replaceAll('#', '');

@@ -2,5 +2,19 @@
     "onboardingTitle": "Enjoy Unlimited \nServers In One Place",
     "onboardingDescription": "A secure VPN app that protects your privacy, encrypts your data, and allows unrestricted access worldwide.",
     "onboardingButton": "Explore Now",
-    "watchTutorial": "Watch Tutorial"
+    "watchTutorial": "Watch Tutorial",
+    "loginTitle": "Welcome Back !",
+    "signUptitle": "Create an Account",
+    "loginDescription": "Please log in to your account",
+    "logIn": "Log In",
+    "signUp": "Sign Up",
+    "loginWithApple": "Sign Up with Apple",
+    "loginWithGoogle": "Sign Up with Google",
+    "orBetterYet": "Or Better Yet",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "loginButton": "Log In",
+    "signUpButton": "Sign Up"
 }

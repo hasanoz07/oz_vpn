@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:oz_vpn/shared/constants/border_radius.dart';
 import 'package:oz_vpn/shared/constants/colors.dart';
 import 'package:oz_vpn/shared/constants/fonts.dart';
+import 'package:oz_vpn/shared/widgets/global_back_button.dart';
 
 final class LightTheme {
   LightTheme._();
@@ -14,7 +15,7 @@ final class LightTheme {
       centerTitle: true,
       backgroundColor: AppColors.instance.white,
       elevation: 0,
-      iconTheme: IconThemeData(color: AppColors.instance.white),
+      iconTheme: IconThemeData(color: AppColors.instance.appBlack),
     ),
     brightness: Brightness.light,
     colorScheme: ColorScheme.light(primary: AppColors.instance.white),
@@ -29,32 +30,19 @@ final class LightTheme {
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.instance.primary,
         foregroundColor: AppColors.instance.white,
-        shape: RoundedRectangleBorder(
-          borderRadius: AppBorderRadius.instance.radiusAll20,
-        ),
-        textStyle: TextStyle(
-          fontFamily: AppFonts.gilroyBold.value,
-          fontSize: 16.sp,
-        ),
+        shape: RoundedRectangleBorder(borderRadius: AppBorderRadius.instance.radiusAll20),
+        textStyle: TextStyle(fontFamily: AppFonts.gilroyBold.value, fontSize: 16.sp),
         minimumSize: Size(double.infinity, 60.h),
       ),
     ),
     textTheme: TextTheme(
-      titleMedium: TextStyle(
-        fontFamily: AppFonts.gilroyBold.value,
-        fontSize: 18.sp,
-        color: AppColors.instance.white,
-      ),
+      titleMedium: TextStyle(fontFamily: AppFonts.gilroyBold.value, fontSize: 18.sp, color: AppColors.instance.white),
       titleSmall: TextStyle(
         fontFamily: AppFonts.gilroySemiBold.value,
         fontSize: 16.sp,
         color: AppColors.instance.white,
       ),
-      labelSmall: TextStyle(
-        fontFamily: AppFonts.gilroyRegular.value,
-        fontSize: 14.sp,
-        color: AppColors.instance.white,
-      ),
+      labelSmall: TextStyle(fontFamily: AppFonts.gilroyRegular.value, fontSize: 14.sp, color: AppColors.instance.white),
     ),
   );
 }

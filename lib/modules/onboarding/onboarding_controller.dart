@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:oz_vpn/routes/app_pages.dart';
 import 'package:oz_vpn/shared/constants/constants_instances.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -9,5 +10,9 @@ class OnboardingController extends GetxController {
     if (!await launchUrl(watchTutorialUri, mode: LaunchMode.inAppWebView)) {
       throw Exception('Could not launch $watchTutorialUri');
     }
+  }
+
+  void goToLogin() {
+    Get.toNamed(Routes.login);
   }
 }

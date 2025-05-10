@@ -24,33 +24,22 @@ class OnboardingScreen extends GetView<OnboardingController> {
 
           SafeArea(
             child: Padding(
-              padding:
-                  controller.constants.paddings.vertical +
-                  controller.constants.paddings.horizontal,
+              padding: controller.constants.paddings.vertical + controller.constants.paddings.horizontal,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    AppStrings.instance.onboardingTitle.tr,
-                    style: controller.constants.textStyles.semiBoldItalic32,
-                  ),
+                  Text(AppStrings.instance.onboardingTitle.tr, style: controller.constants.textStyles.semiBoldItalic32),
                   SizedBox(height: 8.h),
                   Text(
                     controller.constants.strings.onboardingDescription.tr,
-                    style: controller.constants.textStyles.paragraph1.copyWith(
-                      color: controller.constants.colors.gray,
-                    ),
+                    style: controller.constants.textStyles.paragraph1.copyWith(color: controller.constants.colors.gray),
                   ),
                   SizedBox(height: 16.h),
                   Bounceable(
-                    onTap: () {
-                      controller.watchTutorial();
-                    },
+                    onTap: controller.watchTutorial,
                     child: Row(
                       children: [
-                        AppIcons.play.svgWithAttiributes(
-                          color: controller.constants.colors.white,
-                        ),
+                        AppIcons.play.svgWithAttiributes(color: controller.constants.colors.white),
                         SizedBox(width: 8.w),
                         Text(
                           controller.constants.strings.watchTutorial.tr,
@@ -61,10 +50,8 @@ class OnboardingScreen extends GetView<OnboardingController> {
                   ),
                   const Expanded(child: SizedBox.shrink()),
                   ElevatedButton(
-                    onPressed: () {},
-                    child: Text(
-                      controller.constants.strings.onboardingButton.tr,
-                    ),
+                    onPressed: controller.goToLogin,
+                    child: Text(controller.constants.strings.onboardingButton.tr),
                   ),
                 ],
               ),

@@ -3,6 +3,11 @@ import 'package:flutter_svg/svg.dart';
 
 enum AppIcons {
   appIcon('app_icon'),
+  google('google'),
+  apple('apple'),
+  email('email'),
+  lock('lock'),
+  eye('eye'),
   play('play');
 
   const AppIcons(this.value);
