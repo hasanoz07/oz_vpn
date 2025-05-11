@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "210189711730",
+    "project_id": "ozvpn-51e36",
+    "storage_bucket": "ozvpn-51e36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210189711730:android:3b7cafaacdb1f0da7985eb",
+        "android_client_info": {
+          "package_name": "com.ozsoftware.oz_vpn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFpPeCTyog5UmN5cGw0s6EnFUjq5lNIDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
