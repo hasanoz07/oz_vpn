@@ -1,6 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oz_vpn/shared/constants/constants_instances.dart';
-import 'package:flutter/material.dart';
 
 class ForgotPasswordController extends GetxController {
   final constants = ConstantsInstances.instance;

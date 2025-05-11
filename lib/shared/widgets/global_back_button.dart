@@ -26,6 +26,7 @@ class GlobalBackButton extends StatelessWidget {
             color: backgroundColor ?? constants.colors.white,
             shape: BoxShape.circle,
             border: Border.all(color: const Color(0xFFE6E6E6), width: 1.5),
+            // ignore: deprecated_member_use
             boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.07), blurRadius: 16, offset: const Offset(0, 4))],
           ),
           child: Center(

@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:oz_vpn/shared/constants/border_radius.dart';
 import 'package:oz_vpn/shared/constants/colors.dart';
 import 'package:oz_vpn/shared/constants/fonts.dart';
-import 'package:oz_vpn/shared/widgets/global_back_button.dart';
 
 final class LightTheme {
   LightTheme._();
