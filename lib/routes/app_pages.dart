@@ -1,12 +1,13 @@
 import 'package:get/get.dart';
+import 'package:oz_vpn/modules/forgot_password/forgot_password_binding.dart';
+import 'package:oz_vpn/modules/forgot_password/forgot_password_screen.dart';
 import 'package:oz_vpn/modules/login/login_binding.dart';
 import 'package:oz_vpn/modules/login/login_screen.dart';
 import 'package:oz_vpn/modules/onboarding/onboarding_binding.dart';
 import 'package:oz_vpn/modules/onboarding/onboarding_screen.dart';
 import 'package:oz_vpn/modules/splash/splash_binding.dart';
 import 'package:oz_vpn/modules/splash/splash_screen.dart';
-import 'package:oz_vpn/modules/forgot_password/forgot_password_screen.dart';
-import 'package:oz_vpn/modules/forgot_password/forgot_password_binding.dart';
+
 part 'app_routes.dart';
 
 final class AppPages {

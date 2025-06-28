@@ -12,7 +12,20 @@
           "package_name": "com.ozsoftware.oz_vpn"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "210189711730-apso36dko320gdstpip3u0rral346s44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ozsoftware.oz_vpn",
+            "certificate_hash": "53f50df387f9c655aaf371988b0900d8b3789d82"
+          }
+        },
+        {
+          "client_id": "210189711730-rsv4hkbkm0uo8hbr7qlotm9pam1s4kbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCFpPeCTyog5UmN5cGw0s6EnFUjq5lNIDw"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210189711730-rsv4hkbkm0uo8hbr7qlotm9pam1s4kbt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "210189711730-7jmird83fsdcpk83kfsj4929e4nhm1e7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ozsoftware.ozVpn"
+              }
+            }
+          ]
         }
       }
     }

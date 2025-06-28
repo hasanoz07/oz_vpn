@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oz_vpn/data/network/repository/auth/auth_repository.dart';
 import 'package:oz_vpn/shared/constants/constants_instances.dart';
 
 class LoginController extends GetxController {
@@ -27,6 +28,8 @@ class LoginController extends GetxController {
   // Form Keys
   final signUpFormKey = GlobalKey<FormState>();
   final loginFormKey = GlobalKey<FormState>();
+
+  final authRepository = AuthRepository.instance;
 
   @override
   void onInit() {

@@ -164,7 +164,9 @@ class LoginScreen extends GetView<LoginController> {
 
   ElevatedButton _signUpGoogleButton() {
     return ElevatedButton(
-      onPressed: () {},
+      onPressed: () async {
+        await controller.authRepository.signInWithGoogle();
+      },
       style: ElevatedButton.styleFrom(
         backgroundColor: controller.constants.colors.white,
         shape: RoundedRectangleBorder(
@@ -236,6 +238,7 @@ class LoginScreen extends GetView<LoginController> {
                 height: 2.h,
                 width: tabBarWidth.w,
                 decoration: BoxDecoration(
+                  // ignore: deprecated_member_use
                   color: controller.constants.colors.gray.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(2),
                 ),

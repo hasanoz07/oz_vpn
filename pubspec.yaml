@@ -25,7 +25,11 @@ dependencies:
   async: ^2.11.0
   # Webview
   url_launcher: ^6.3.1
+  # Firebase
   firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  google_sign_in: ^6.3.0
+
 
 
 dev_dependencies:
