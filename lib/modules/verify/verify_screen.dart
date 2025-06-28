@@ -41,7 +41,7 @@ class VerifyScreen extends GetView<VerifyController> {
 }
 
 class _PinPut extends StatelessWidget {
-  const _PinPut({required this.controller, super.key});
+  const _PinPut({required this.controller});
 
   final VerifyController controller;
 
