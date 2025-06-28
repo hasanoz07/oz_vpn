@@ -31,4 +31,8 @@ final class AppStrings {
   String get sendCode => 'sendCode';
   String get loginButton => 'loginButton';
   String get signUpButton => 'signUpButton';
+  String get verifyTitle => 'verifyTitle';
+  String get veriftYourSelf => 'veriftYourSelf';
+  String get veriftYourSelfDescription => 'veriftYourSelfDescription';
+  String get verify => 'verify';
 }

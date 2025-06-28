@@ -35,7 +35,7 @@ class ForgotPasswordScreen extends GetView<ForgotPasswordController> {
             ),
             SizedBox(height: 24.h),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: controller.goToVerify,
               child: Text(controller.constants.strings.signUp.tr, style: controller.constants.textStyles.fieldText2),
             ),
           ],

@@ -19,5 +19,9 @@
     "forgotPasswordDescription": "Enter your email to reset your password. We will send the code to the email so you can reset password",
     "sendCode": "Send Code",
     "loginButton": "Log In",
-    "signUpButton": "Sign Up"
+    "signUpButton": "Sign Up",
+    "verifyTitle": "Verify",
+    "veriftYourSelf": "Verify Yourself",
+    "veriftYourSelfDescription": "We send email on ui***@gmail.com make sure you enter 5 digit code correctly",
+    "verify": "Verify"
 }

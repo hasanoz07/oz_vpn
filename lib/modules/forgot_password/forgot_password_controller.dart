@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oz_vpn/routes/app_pages.dart';
 import 'package:oz_vpn/shared/constants/constants_instances.dart';
 
 class ForgotPasswordController extends GetxController {
@@ -23,5 +24,9 @@ class ForgotPasswordController extends GetxController {
     emailController.value.dispose();
     emailFocusNode.dispose();
     super.onClose();
+  }
+
+  void goToVerify() {
+    Get.toNamed(Routes.verify);
   }
 }

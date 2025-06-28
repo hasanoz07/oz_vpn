@@ -7,6 +7,8 @@ import 'package:oz_vpn/modules/onboarding/onboarding_binding.dart';
 import 'package:oz_vpn/modules/onboarding/onboarding_screen.dart';
 import 'package:oz_vpn/modules/splash/splash_binding.dart';
 import 'package:oz_vpn/modules/splash/splash_screen.dart';
+import 'package:oz_vpn/modules/verify/verify_binding.dart';
+import 'package:oz_vpn/modules/verify/verify_screen.dart';
 
 part 'app_routes.dart';
 
@@ -22,5 +24,6 @@ final class AppPages {
     GetPage(name: Routes.onboarding, page: () => const OnboardingScreen(), binding: OnboardingBinding()),
     GetPage(name: Routes.login, page: () => const LoginScreen(), binding: LoginBinding()),
     GetPage(name: Routes.forgotPassword, page: ForgotPasswordScreen.new, binding: ForgotPasswordBinding()),
+    GetPage(name: Routes.verify, page: () => const VerifyScreen(), binding: VerifyBinding()),
   ];
 }

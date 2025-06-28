@@ -17,6 +17,7 @@ dependencies:
   # UI Components
   flutter_svg: ^2.0.10+1
   flutter_bounceable: ^1.1.0
+  pinput: ^5.0.1
   # Local Storage
   get_storage: ^2.1.1
   # Date format
