@@ -25,7 +25,10 @@ final class AppStrings {
   String get email => 'email';
   String get password => 'password';
   String get confirmPassword => 'confirmPassword';
+  String get forgotPasswordTitle => 'forgotPasswordTitle';
   String get forgotPassword => 'forgotPassword';
+  String get forgotPasswordDescription => 'forgotPasswordDescription';
+  String get sendCode => 'sendCode';
   String get loginButton => 'loginButton';
   String get signUpButton => 'signUpButton';
 }

@@ -64,6 +64,13 @@ final class AppTextStyles {
     fontFamily: AppFonts.gilroySemiBold.value,
     color: AppColors.instance.white,
   );
+  TextStyle get heading7 => TextStyle(
+    fontSize: 16.sp,
+    height: 1,
+    letterSpacing: 0,
+    fontFamily: AppFonts.gilroyMedium.value,
+    color: AppColors.instance.black,
+  );
   //?Fild Texts
   TextStyle get fieldText1 => TextStyle(
     fontSize: 14.sp,

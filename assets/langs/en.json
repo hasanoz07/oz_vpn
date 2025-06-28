@@ -15,6 +15,9 @@
     "password": "Password",
     "confirmPassword": "Confirm Password",
     "forgotPassword": "Forgot Password?",
+    "forgotPasswordTitle": "Forgot Password",
+    "forgotPasswordDescription": "Enter your email to reset your password. We will send the code to the email so you can reset password",
+    "sendCode": "Send Code",
     "loginButton": "Log In",
     "signUpButton": "Sign Up"
 }

@@ -2,18 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:oz_vpn/shared/constants/border_radius.dart';
 import 'package:oz_vpn/shared/constants/colors.dart';
+import 'package:oz_vpn/shared/constants/constants_instances.dart';
 import 'package:oz_vpn/shared/constants/fonts.dart';
+import 'package:oz_vpn/shared/constants/text_styles.dart';
 
 final class LightTheme {
   LightTheme._();
 
   static final LightTheme instance = LightTheme._();
+  final constants = ConstantsInstances.instance;
 
   final ThemeData lightTheme = ThemeData(
     appBarTheme: AppBarTheme(
       centerTitle: true,
       backgroundColor: AppColors.instance.white,
       elevation: 0,
+      titleTextStyle: AppTextStyles.instance.heading7,
       iconTheme: IconThemeData(color: AppColors.instance.appBlack),
     ),
     brightness: Brightness.light,

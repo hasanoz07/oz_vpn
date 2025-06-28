@@ -8,6 +8,7 @@ enum AppIcons {
   email('email'),
   lock('lock'),
   eye('eye'),
+  backArrow('back_arrow'),
   play('play');
 
   const AppIcons(this.value);
